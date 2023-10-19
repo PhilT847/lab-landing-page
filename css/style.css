@@ -1,16 +1,36 @@
 /* style.css */
 
 body {
-    display:flex;
+    margin: 0; /* Remove default margin/padding */
+    padding: 0;
+    display:flex; /* Align sections vertically */
     flex-direction: column;
+    background-color: #FAEEE6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .header {
+    font-size: 32px;
+    color: white;
+    background-color: #635233;
+    display: flex;
+    justify-content: space-between;
+}
 
+.header-links {
+    display: flex;
 }
 
 .title-section {
-
+    background-color: #658274;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
 }
 
 .title-info {
@@ -19,14 +39,31 @@ body {
 }
 
 .img-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lab-image {
+    width: 200px;
+    height: 200px;
+}
+
+.img-with-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-section {
-
+    background-color: burlywood;
 }
 
-.contect-section {
+.contact-section {
 
 }
 
