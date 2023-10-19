@@ -1,0 +1,35 @@
+/* style.css */
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+
+}
+
+.title-section {
+
+}
+
+.title-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-section {
+
+}
+
+.quote-section {
+
+}
+
+.contect-section {
+
+}
+
+.footer {
+
+}
