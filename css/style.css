@@ -15,6 +15,14 @@ a {
     color: white;
 }
 
+button {
+    font-weight: 700;
+    background-color: #3882F6;
+    padding: 8px 36px;
+    border-radius: 12px;
+    border: none;
+}
+
 .header, .footer, .title-section, .img-section, 
 .quote-section, .contact-section {
     padding: 12px 15%; /* padding on all content elements*/
@@ -25,20 +33,25 @@ a {
     padding-bottom: 64px;
 }
 
-.header {
+.header, .title-section, .contact-box, 
+.lab-button, .contact-button {
     color: white;
+}
+
+.header-links, .title-secondary-text, 
+.footer, .contact-text-secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 100;   
+}
+
+.header {
     font-size: 24px;
     font-weight: 800;
     background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.header-links, .title-secondary-text, .footer {
-    color: #E5E7EB;
-    font-size: 18px;
-    font-weight: 100;   
 }
 
 .header-links {
@@ -49,7 +62,6 @@ a {
 }
 
 .title-section {
-    color: white;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -70,10 +82,7 @@ a {
     font-weight: 800;
 }
 
-.title-button {
-    background-color: #3882F6;
-    color: white;
-    font-weight: 500;
+.lab-button {
     width: 40%;
 }
 
@@ -149,9 +158,20 @@ a {
 .contact-box {
     background-color: #3882f6;
     border-radius: 24px;
+    padding: 36px 96px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 32px;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-button {
+    outline: 2px solid white;
 }
 
 .footer {
