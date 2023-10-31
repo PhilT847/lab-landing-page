@@ -2,6 +2,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1F2937;
     min-height: 100vh;
     margin: 0; /* Remove default margin */
     display: flex; /* Align sections vertically */
@@ -113,7 +114,6 @@ a {
 }
 
 .img-with-text {
-    background-color: pink;
     width: 200px;
     height: 300px;
     display: flex;
@@ -124,10 +124,34 @@ a {
 
 .quote-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+.quote-text {
+    padding-top: 32px;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.quote-attributed {
+    font-weight: 700;
+    text-align: right;
 }
 
 .contact-section {
     background-color: white;
+}
+
+.contact-box {
+    background-color: #3882f6;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .footer {
