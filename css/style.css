@@ -1,7 +1,7 @@
 /* style.css */
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #1F2937;
     min-height: 100vh;
     margin: 0; /* Remove default margin */
@@ -22,10 +22,11 @@ a {
 
 button {
     font-weight: 700;
-    background-color: #3882F6;
+    background-color: #df8600;
     padding: 8px 36px;
     border-radius: 12px;
     border: none;
+    overflow: hidden; /* words move behind button if overflowing */
 }
 
 .header, .footer, .title-section, .img-section, 
@@ -90,13 +91,13 @@ button {
 }
 
 .lab-button {
-    width: 40%;
+    width: 300px;
 }
 
 .title-image {
-    border: 4px solid #3882f6;
+    border: 4px solid #df8600;
     border-radius: 24px;
-    height: 320px;
+    height: 400px;
 }
 
 .img-section {
@@ -126,7 +127,7 @@ button {
     flex-shrink: 0;
     object-fit: cover;
     object-position: 10% 100%;
-    border: 4px solid #3882f6;
+    border: 4px solid #df8600;
     border-radius: 24px;
     width: 200px;
     height: 200px;
@@ -166,19 +167,21 @@ button {
 }
 
 .contact-box {
-    background-color: #3882f6;
+    background-color: #df8600;
     border-radius: 24px;
     padding: 64px 128px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 128px;
+    gap: 12px;
     margin: 48px 0px;
 }
 
 .contact-text {
     display: flex;
     flex-direction: column;
+    flex-basis: 500px;
 }
 
 .contact-text-main {
