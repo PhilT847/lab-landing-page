@@ -1,7 +1,10 @@
 /* style.css */
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Constantia, "Lucida Bright", Lucidabright, 
+                "Lucida Serif", Lucida, "DejaVu Serif", 
+                "Bitstream Vera Serif", "Liberation Serif", 
+                Georgia, serif;
     color: #1F2937;
     min-height: 100vh;
     margin: 0; /* Remove default margin */
@@ -11,7 +14,7 @@ body {
 
     background-position: center; /* Create fixed background */
     background-size: cover;
-    background-image: url(/home/pst16/repos/lab-landing-page/images/bird-hu-lei.jpg);
+    background-image: url(../images/bird-hu-lei.jpg);
     background-attachment: fixed;
 }
 
